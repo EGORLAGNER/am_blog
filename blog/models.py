@@ -24,7 +24,7 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts')
 
     objects = models.Manager()  # менеджер по умолчанию
-    published = PublishedManager()  # кастомный менеджер
+    cm_published = PublishedManager()  # кастомный менеджер
 
     class Meta:
         ordering = ['-publish']
