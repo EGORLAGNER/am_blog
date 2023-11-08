@@ -5,15 +5,15 @@ from blog.models import Post
 
 
 def post_list(request):
-    posts = Post.published.all()
+    posts = Post.cm_published.all()
     return render(request,
                   'blog/post/list.html',
-                  {'post': posts})
+                  {'posts': posts})
 
 
 def post_detail(request, id):
     try:
-        post = Post.published.get(id=id)
+        post = Post.cm_published.get(id=id)
     except Post.DoesNotExist:
         raise Http404("No Post found.")
 
