@@ -2,17 +2,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{% block title %}{% endblock %}</title>
-  <link href="{% static "css/blog.css" %}" rel="stylesheet">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static "css/blog.css" %}" rel="stylesheet">
 </head>
 <body>
-  <div id="content">
+<div id="content">
     {% block content %}
+        {% if comment %}
+            <h2>Your comment has been added.</h2>
+            <p><a href="{{ post.get_absolute_url }}">Back to the post</a></p>
+        {% else %}
+            {% include "blog/post/includes/comment_form.html" %}
+        {% endif %}
     {% endblock %}
-  </div>
-  <div id="sidebar">
+</div>
+<div id="sidebar">
     <h2>My blog</h2>
     <p>This is my blog.</p>
-  </div>
+</div>
 </body>
 </html>
