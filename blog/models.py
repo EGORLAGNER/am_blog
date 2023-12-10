@@ -3,6 +3,8 @@ from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 
+from taggit.managers import TaggableManager
+
 
 class PublishedManager(models.Manager):
     def get_queryset(self):
@@ -26,6 +28,8 @@ class Post(models.Model):
 
     objects = models.Manager()  # менеджер по умолчанию
     cm_published = PublishedManager()  # кастомный менеджер
+
+    tags = TaggableManager()  # менеджер тегов из taggit
 
     class Meta:
         ordering = ['-publish']
