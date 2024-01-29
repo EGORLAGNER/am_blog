@@ -8,6 +8,7 @@ from taggit.managers import TaggableManager
 
 class PublishedManager(models.Manager):
     def get_queryset(self):
+        # Вызывается родительский метод с доп. фильтрами
         return super().get_queryset().filter(status=Post.Status.PUBLISHED)
 
 
@@ -32,9 +33,12 @@ class Post(models.Model):
     tags = TaggableManager()  # менеджер тегов из taggit
 
     class Meta:
-        ordering = ['-publish']
+        # Этот класс определяет метаданные модели.
+        # Метаданные - это данные, которые описывают другие данные.
+
+        ordering = ['-publish']  # параметры сортировки
         indexes = [
-            models.Index(fields=['-publish'])
+            models.Index(fields=['-publish'])  # установка индекса на поле
         ]
 
     def __str__(self):
