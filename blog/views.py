@@ -7,6 +7,7 @@ from django.core.paginator import Paginator, EmptyPage, \
 from blog.models import Post
 from .forms import EmailPostForm, CommentForm
 from taggit.models import Tag
+from django.db.models import Count
 
 from django.views.generic import ListView
 
@@ -56,11 +57,26 @@ def post_detail(request, year, month, day, slug):
 
     form = CommentForm()
 
+    # список схожих постов
+    # список с id тегов, связанных с текущим постом
+    post_tags_ids = post.tags.values_list('id', flat=True)  # flat=True - вернуть список без кортежей
+
+    # Достать все посты которые связаны с тегами (связанные посты вычисляются по id тегов).
+    # Посты и теги имеют связь многие ко многим.
+    # Имеется таблица taggit_taggeditem, которая хранит связи.
+    # При обращении к tags через OMR - получу менеджер тегов, здесь же в "tags__in" речь о проверки значения поля в БД.
+    # По логике у post в поле tags должен лежать id тега, с которым он связан, но все не так явно при работе через ORM.
+    similar_post = Post.cm_published.filter(tags__in=post_tags_ids).exclude(id=post.id)
+
+    # annotate создает временное поле same_tags
+    similar_post = similar_post.annotate(same_tags=Count('tags')).order_by('-same_tags', '-publish')[:4]
+
     return render(request,
                   'blog/post/detail.html', {
                       'post': post,
                       'comments': comments,
                       'form': form,
+                      'similar_post': similar_post,
                   })
 
 
