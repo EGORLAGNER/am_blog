@@ -7,7 +7,7 @@ class EmailPostForm(forms.Form):
     email = forms.EmailField()
     to = forms.EmailField()
     comments = forms.CharField(required=False,
-                               widget=forms.Textarea)   # required - обязат поле, widget - переопределяет вид в html
+                               widget=forms.Textarea)  # required - обязат поле, widget - переопределяет вид в html
 
 
 class CommentForm(forms.ModelForm):
@@ -16,3 +16,5 @@ class CommentForm(forms.ModelForm):
         fields = ['name', 'email', 'body']
 
 
+class SearchForm(forms.Form):
+    query = forms.CharField()
