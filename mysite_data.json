@@ -1,0 +1,1388 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-11-06T07:06:38.566Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "первый пост в новом блоге",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-11-06T07:07:16.539Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "книга прекрасна",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-11-08T10:16:46.322Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "первый пост в новом блоге",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-11-08T10:16:49.683Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "книга прекрасна",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-11-08T10:32:22.008Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "первый пост в новом блоге",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-11-08T10:32:34.113Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "книга прекрасна",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-11-08T17:06:41.948Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "new",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-11-08T17:07:09.645Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "neww",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-11-08T17:07:34.646Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "new",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-11-08T17:07:44.350Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "neww",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-11-08T18:01:48.930Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "new-new",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-11-08T18:16:29.885Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "new",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-11-08T18:16:36.654Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "new-new",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-11-08T18:16:42.414Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "neww",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-11-10T09:15:35.100Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "new",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-11-10T09:15:39.406Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "new-new",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-11-10T09:15:44.693Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "neww",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-11-10T09:19:03.003Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "первый пост в новом блоге",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-11-10T09:19:03.005Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "книга прекрасна",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-11-10T09:19:03.007Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "new",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-11-10T09:19:03.009Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "neww",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-11-10T09:19:03.011Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "new-new",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-11-10T09:19:26.041Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Инновации в движении",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-11-10T09:19:41.513Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Роскошь в новом измерении",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-11-10T09:19:54.252Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Надежность выше всего",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-11-10T09:20:08.581Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Дух Zoom-Zoom",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-11-10T09:20:27.551Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Изысканное сочетание роскоши и производительности",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-11-10T09:20:47.010Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Уверенность в движении",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-11-10T09:20:58.598Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Сырая мощь, освобожденная",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-11-13T16:55:14.250Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by bububu on Уверенность в движении",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-11-14T13:55:13.069Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by bububu on Уверенность в движении",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-12-10T10:47:14.627Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Изысканное сочетание роскоши и производительности",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-12-10T10:47:19.808Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Изысканное сочетание роскоши и производительности",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-12-10T13:14:09.376Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Инновации в движении",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-12-10T13:14:15.799Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Роскошь в новом измерении",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-12-10T13:15:04.449Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Инновации в движении",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-12-10T13:15:45.237Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Дух Zoom-Zoom",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-02-01T06:44:27.936Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Изысканное сочетание роскоши и производительности",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-02-01T07:06:27.242Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Сырая мощь, освобожденная",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-02-02T13:09:35.252Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:7070",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$aUp3FrU3QnfWcEUIeevgGZ$/UkjqGtMeSBxZPFlBe9qn5cD7fvrOlZCjyKUaIEnhzY=",
+    "last_login": "2024-02-01T06:36:54.356Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-11-06T07:05:38.176Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1bon77uh1nelrdbfyl2ur42xo98orrpy",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmYUlrq0j1naGY6U0ENTSisjHcXEha6_e-9_1YRt3WMW5UlTqyuCtTldyNMT5kPwA-c70WnMq_LRPpQ9EmrHgrL63a6fwcj1nGvOwkdITqCIBRMxoY64D4ZD2hd23hpwUggygRgXciZ2e9MbCO-D059vvaYODQ:1r2aCc:QfjQFnmDXx9izGSmXIRMafqdUFZD6uNaPIEKZmod_sI",
+    "expire_date": "2023-11-27T16:54:22.366Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2a0dfhf1h5zi6j8boovvx45smihplkdl",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmYUlrq0j1naGY6U0ENTSisjHcXEha6_e-9_1YRt3WMW5UlTqyuCtTldyNMT5kPwA-c70WnMq_LRPpQ9EmrHgrL63a6fwcj1nGvOwkdITqCIBRMxoY64D4ZD2hd23hpwUggygRgXciZ2e9MbCO-D059vvaYODQ:1r0m0R:fOKmDmfULbhbEMZm5RAzvQcL1DTfQsCh_xvX0NWjGW8",
+    "expire_date": "2023-11-22T17:06:19.538Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "a22ioala5ywned8rh8n4x0xh2ol9bxnl",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmYUlrq0j1naGY6U0ENTSisjHcXEha6_e-9_1YRt3WMW5UlTqyuCtTldyNMT5kPwA-c70WnMq_LRPpQ9EmrHgrL63a6fwcj1nGvOwkdITqCIBRMxoY64D4ZD2hd23hpwUggygRgXciZ2e9MbCO-D059vvaYODQ:1r2Xpl:BvR4qheHyNiHXNCNDfmHN7-lCmHsaG_AC4eA7Ni_eK0",
+    "expire_date": "2023-11-27T14:22:37.738Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "a9ru1868u3mrg68pv3cv9xeu5omf9mnz",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmYUlrq0j1naGY6U0ENTSisjHcXEha6_e-9_1YRt3WMW5UlTqyuCtTldyNMT5kPwA-c70WnMq_LRPpQ9EmrHgrL63a6fwcj1nGvOwkdITqCIBRMxoY64D4ZD2hd23hpwUggygRgXciZ2e9MbCO-D059vvaYODQ:1qztgB:OHARyI730ZKU1HOInv1Ff2bQGWMOZQ1_InA-5dPjJ7Y",
+    "expire_date": "2023-11-20T07:05:47.797Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "edyx5nuuj2t92ajzmvoj3fdlp9abb3nj",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmYUlrq0j1naGY6U0ENTSisjHcXEha6_e-9_1YRt3WMW5UlTqyuCtTldyNMT5kPwA-c70WnMq_LRPpQ9EmrHgrL63a6fwcj1nGvOwkdITqCIBRMxoY64D4ZD2hd23hpwUggygRgXciZ2e9MbCO-D059vvaYODQ:1rCaHm:O0eOKkbLJBxivytk8CWeUrZYI-ozsFOBpwQmspwONrU",
+    "expire_date": "2023-12-25T07:01:02.448Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jh99uk1mtb29j7d38azrrha45z8bv7zc",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmYUlrq0j1naGY6U0ENTSisjHcXEha6_e-9_1YRt3WMW5UlTqyuCtTldyNMT5kPwA-c70WnMq_LRPpQ9EmrHgrL63a6fwcj1nGvOwkdITqCIBRMxoY64D4ZD2hd23hpwUggygRgXciZ2e9MbCO-D059vvaYODQ:1rSHfP:3NNC9LN8SZidEaePDYsqsG3EqZuNytbqN0ilo_Veihk",
+    "expire_date": "2024-02-06T14:22:19.577Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qbaidv64j9otuep07lr5due5ujn1bgco",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmYUlrq0j1naGY6U0ENTSisjHcXEha6_e-9_1YRt3WMW5UlTqyuCtTldyNMT5kPwA-c70WnMq_LRPpQ9EmrHgrL63a6fwcj1nGvOwkdITqCIBRMxoY64D4ZD2hd23hpwUggygRgXciZ2e9MbCO-D059vvaYODQ:1r0n6C:DqpTAmLu04eyuIQ0_UTmEwzkNMUmQoqsMgz2jouZYfg",
+    "expire_date": "2023-11-22T18:16:20.330Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qodb3mmvivm88q59rqhl9k00vkzb7ihr",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmYUlrq0j1naGY6U0ENTSisjHcXEha6_e-9_1YRt3WMW5UlTqyuCtTldyNMT5kPwA-c70WnMq_LRPpQ9EmrHgrL63a6fwcj1nGvOwkdITqCIBRMxoY64D4ZD2hd23hpwUggygRgXciZ2e9MbCO-D059vvaYODQ:1rVQgw:tQm30rfxNtx6kKlH7BTrejL6GjarRtU40aNpcflPBXc",
+    "expire_date": "2024-02-15T06:36:54.358Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "s9qzoboskuk4liiuv5umbtwd2g7yk5s5",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmYUlrq0j1naGY6U0ENTSisjHcXEha6_e-9_1YRt3WMW5UlTqyuCtTldyNMT5kPwA-c70WnMq_LRPpQ9EmrHgrL63a6fwcj1nGvOwkdITqCIBRMxoY64D4ZD2hd23hpwUggygRgXciZ2e9MbCO-D059vvaYODQ:1rCHGd:mhFaytGV7hL-XFIff7NqylPuZ1QKladOi-KdhD68ve0",
+    "expire_date": "2023-12-24T10:42:35.886Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Инновации в движении",
+    "slug": "innovacii-v-dvizhenii",
+    "body": "Audi — воплощение немецкого инженерного мастерства. С богатой историей, уходящей корнями в 1885 год, Audi стала синонимом передовых технологий, роскошного дизайна и непревзойденной производительности. От культовой системы полного привода Quattro до элегантных линий R8, Audi продолжает переопределять автомобильные инновации.",
+    "publish": "2023-11-10T09:19:05Z",
+    "created": "2023-11-10T09:19:26.040Z",
+    "updated": "2023-12-10T13:15:04.446Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Роскошь в новом измерении",
+    "slug": "roskosh-v-novom-izmerenii",
+    "body": "Mercedes-Benz, имя, которое ассоциируется с элегантностью и утонченностью. Основанный в 1926 году, этот немецкий производитель роскошных автомобилей синоним инноваций и комфорта. От знаменитой трехлучевой звезды до модели S-Class, Mercedes-Benz устанавливает стандарт для автомобильной роскоши, сочетая стиль с передовой технологией.",
+    "publish": "2023-11-10T09:19:28Z",
+    "created": "2023-11-10T09:19:41.512Z",
+    "updated": "2023-12-10T13:14:15.796Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Надежность выше всего",
+    "slug": "nadezhnost-vyshe-vsego",
+    "body": "Toyota, бренд, который идет дальше создания автомобилей — он создает доверие. Основанная в 1937 году, Toyota завоевала мировую репутацию надежности и долговечности. С разнообразным ассортиментом автомобилей, от компактного Corolla до надежного Land Cruiser, Toyota продолжает лидировать в области качества и надежности.",
+    "publish": "2023-11-10T09:19:43Z",
+    "created": "2023-11-10T09:19:54.251Z",
+    "updated": "2023-11-10T09:19:54.251Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Дух Zoom-Zoom",
+    "slug": "duh-zoom-zoom",
+    "body": "Mazda, бренд, воплощающий дух удовольствия от вождения. Появившись в Японии в 1920 году, Mazda постоянно предоставляет стильные и динамичные автомобили. Известные своей технологией SKYACTIV и ярким дизайном KODO, автомобили Mazda не просто средство передвижения, а выражение страсти к вождению.",
+    "publish": "2023-11-10T09:19:57Z",
+    "created": "2023-11-10T09:20:08.580Z",
+    "updated": "2023-12-10T13:15:45.234Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "Изысканное сочетание роскоши и производительности",
+    "slug": "izyskannoe-sochetanie-roskoshi-i-proizvoditelnosti",
+    "body": "Lexus, роскошное подразделение Toyota, переопределяет понятие автомобильной роскоши с момента своего основания в 1989 году. Известный своим стремлением к мастерству, вниманием к деталям и гармоничным сочетанием производительности и комфорта, Lexus стоит как символ утонченной элегантности на дороге.",
+    "publish": "2023-11-10T09:20:10Z",
+    "created": "2023-11-10T09:20:27.550Z",
+    "updated": "2024-02-01T06:44:27.933Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "Уверенность в движении",
+    "slug": "uverennost-v-dvizhenii",
+    "body": "Subaru, японский производитель, который придает уверенность вашему путешествию. Основанный в 1953 году, Subaru знаменит своей симметричной системой полного привода и конструкцией боксерного двигателя. Будь то авантюрный Outback или спортивный WRX, автомобили Subaru созданы для тех, кто ищет гармонию между возможностями и стилем.",
+    "publish": "2023-11-10T09:20:32Z",
+    "created": "2023-11-10T09:20:47.009Z",
+    "updated": "2023-11-10T09:20:47.009Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 12,
+  "fields": {
+    "title": "Сырая мощь, освобожденная",
+    "slug": "syraya-mosh-osvobozhdennaya",
+    "body": "Dodge, американский бренд с наследием сырой мощи и яркого дизайна. Основанный в 1900 году, Dodge синоним высокопроизводительных автомобилей, которые делают заявление на дороге. От культового Challenger до мощных грузовиков Ram, автомобили Dodge воплощают дух американского мускула, предлагая захватывающий опыт вождения.",
+    "publish": "2023-11-10T09:20:52Z",
+    "created": "2023-11-10T09:20:58.597Z",
+    "updated": "2024-02-01T07:06:27.238Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 11,
+    "name": "bububu",
+    "email": "tuktuk@gmail.com",
+    "body": "бу-бу-бу, тук-тук-тук, это я - четвертый цилиндр!",
+    "created": "2023-11-13T16:51:31.156Z",
+    "updated": "2023-11-14T13:55:13.067Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 11,
+    "name": "субаравод",
+    "email": "subarul@gmail.com",
+    "body": "Моя импреза врх сти всех быстрее и круче!!!111одын",
+    "created": "2023-11-13T16:52:18.508Z",
+    "updated": "2023-11-13T16:52:18.508Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 12,
+    "name": "lagner",
+    "email": "lagner@gmail.com",
+    "body": "привет",
+    "created": "2024-01-29T14:19:34.070Z",
+    "updated": "2024-01-29T14:19:34.070Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 12,
+    "name": "lagner",
+    "email": "lagner@gmail.com",
+    "body": "как дела?",
+    "created": "2024-01-29T14:19:52.479Z",
+    "updated": "2024-01-29T14:19:52.479Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 12,
+    "name": "lagner",
+    "email": "lagner@gmail.com",
+    "body": "что делаешь?",
+    "created": "2024-01-29T14:20:09.665Z",
+    "updated": "2024-01-29T14:20:09.665Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "petrol",
+    "slug": "petrol"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "cars",
+    "slug": "cars"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "red",
+    "slug": "red"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "car",
+    "slug": "car"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "usa",
+    "slug": "usa"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:7070",
+    "name": "localhost:7070"
+  }
+}
+]
